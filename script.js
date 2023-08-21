@@ -25,10 +25,11 @@ const modes = {
     'symbol': "*"
   },
   "division": {
-    'symbol': "/"
+    'symbol': "÷"
   },
   "comparasion": {
     "symbol": "?"
+    
   }
 }
 

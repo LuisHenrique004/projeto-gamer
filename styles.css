@@ -54,6 +54,7 @@ body {
     border-left: 6px solid lightslategray;
 }
 
+
 iframe {
     border: none;
     width: 50%;
@@ -67,12 +68,20 @@ iframe {
     width: 50%;
     border-radius: 8px;
     text-align: center;
-    font-size: 22px;
+    font-size: 50px;  
 }
 
 .questions {
     display: flex;
     flex-direction: column;
+}
+
+#question { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: auto;
 }
 
 .answers {
@@ -151,7 +160,7 @@ iframe {
 }
 
 .image {
-    height: 35px;
+    height: 45px;
 }
 
 #symbol {
@@ -163,6 +172,7 @@ iframe {
     justify-content: left;
     align-items: center;
     font-size: 50px;
+    gap: 60px;
     flex-wrap: wrap;
 }
 

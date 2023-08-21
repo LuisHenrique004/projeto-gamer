@@ -127,7 +127,7 @@ export default {
     ],
     division: [
       {
-        question: "Quanto é 2 / 1?",
+        question: "Quanto é 2 ÷ 1?",
         number1: '2',
         number2: '1',
         answers: [
@@ -137,7 +137,7 @@ export default {
         ],
       },
       {
-        question: "Quanto é 10 / 2?",
+        question: "Quanto é 10 ÷ 2?",
         number1: '10',
         number2: '2',
         answers: [
@@ -147,7 +147,7 @@ export default {
         ],
       },
       {
-        question: "Quanto é 12 / 4?",
+        question: "Quanto é 12 ÷ 4?",
         number1: '12',
         number2: '4',
         answers: [
@@ -157,7 +157,7 @@ export default {
         ],
       },
       {
-        question: "Quanto é 7 / 7?",
+        question: "Quanto é 7 ÷ 7?",
         number1: '7',
         number2: '7',
         answers: [
@@ -173,9 +173,9 @@ export default {
         number1: '2',
         number2: '1',
         answers: [
-          { option: ">", correct: true },
-          { option: "<", correct: false },
-          { option: "=", correct: false },
+          { option: "> Maior que", correct: true },
+          { option: "< Menor que", correct: false },
+          { option: "= Igual", correct: false },
         ],
       }
     ]
