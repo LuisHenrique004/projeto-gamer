@@ -64,7 +64,7 @@ export default {
       },
       {
         question: "Quanto é 4 + 8?",
-        number1: '10',
+        number1: '4',
         number2: '8',
         answers: [
           { option: "8", correct: false },
