@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Inclusão</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <main class="container">
+        <ul class="sidebar">
+            <li><i class="fa-solid fa-calculator"></i> NUMZY</li>
+            <li><i class="fa-solid fa-house"></i> Inicio</li>
+            <li class="mode" value="sum"><i class="fa-solid fa-plus"></i> Soma</li>
+            <li class="mode" value="subtraction"><i class="fa-solid fa-minus"></i> Subtração</li>
+            <li class="mode" value="multiplication"><i class="fa-solid fa-xmark"></i> Multiplicação</li>
+            <li class="mode" value="division"><i class="fa-solid fa-divide"></i> Divisão</li>
+            <li class="mode" value="comparasion"><i class="fa-solid fa-greater-than-equal"></i> Comparadores matemáticos</li>
+
+    </ul>
+        <section class="quiz-container">
+            <main class="quiz">
+                <div class="questions">
+                    <span id="question"></span>
+                    <div class="questions-images">
+                        <div class="image-container" id="image1">
+                        </div>
+                        <span id="symbol"></span>
+                        <div class="image-container" id="image2">
+
+                        </div>
+                    </div>
+                    <div class="answers">
+                    </div>
+                    <audio id="audio-correto" src="assets/correct.mp3"></audio>
+                    <audio id="audio-errado" src="assets/error.mp3"></audio>
+                    <span class="error">Você deve escolher uma opção</span>
+                    <div class="bottom">
+                        <span class="questions_status">
+                            <span class="current question_number"></span> de <span class="total question_number"></span>
+                        </span>
+                        <button class="next">Próxima</button>
+                    </div>
+                    
+                </div>  
+        
+                <div class="finish">
+                    <span class="message"></span>
+                    <button class="restart">Reiniciar</button>
+                </div>
+        
+                <script type="module" src="script.js"></script>
+            </main>
+        </section>
+    </main>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
+</html>
