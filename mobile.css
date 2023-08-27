@@ -8,6 +8,13 @@
         box-sizing: border-box;
         font-family: 'poppins', sans-serif;
     }
+
+    li > i.fa-solid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
     
     main > ul > li > p.text {
         display: none;
@@ -27,6 +34,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-right: 20px;
     }
 
     .quiz {
@@ -39,11 +47,6 @@
         font-size: 1.4em;  
     }
 
-    .questions {
-        display: flex;
-        flex-direction: column;
-    }
-
     #question { 
         display: flex;
         justify-content: center;
@@ -51,80 +54,11 @@
         width: 100px;
         margin: auto;
     }
-    
-    .answers {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    
-    .option, .restart {
-        margin: 10px 0px;
-        background-color: white;
-        text-align: left;
-        padding: 10px 8px;
-        border-radius: 8px;
-        border: 1px solid lightslategray;
-        cursor: pointer;
-        width: 100%;
-    }
-    
-    .restart{
-        background-color: lightslategray;
-        color: white;
-        border: none;
-        text-align: center;
-    }
-    
-    .logo {
-        text-align: center;
-        font-size: 22px;
-        margin: 10px 5px;
-    }
-    
-    .finish {
-        display: none;
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .bottom{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin: 10px 0;
-        font-size: 14px;
-    }
-    
-    .next {
-        background-color: lightslategray;
-        font-size: 14px;
-        color: white;
-        border-radius: 8px;
-        padding: 10px 8px;
-        border: none;
-        cursor: pointer;
-    }
-    
-    .question_number {
-        background-color: lightgray;
-        border-radius: 50%;
-        padding: 2px 8px;
-        color: white;
-    }
-    
+     
     .error{
         display: none;
         color: red;
         font-size: 14px;
-    }
-    
-    .questions-images{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
     }
     
     .image {
@@ -143,10 +77,5 @@
         gap: 20px;
         flex-wrap: wrap;
     }
-    
-    .option-images{
-        margin-left: 16px
-    }
-
    
 }
