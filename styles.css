@@ -45,6 +45,10 @@ body {
     border-left: 6px solid white;
 }
 
+p.text {
+    display: inline-block;
+}
+
 .sidebar > li > i{
     margin-right: 5px;
 }
