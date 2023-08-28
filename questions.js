@@ -173,9 +173,9 @@ export default {
         number1: '2',
         number2: '1',
         answers: [
-          { option: "> Maior que", correct: true },
-          { option: "< Menor que", correct: false },
-          { option: "= Igual", correct: false },
+          { option: ">", correct: true },
+          { option: "<", correct: false },
+          { option: "=", correct: false },
         ],
       }
     ]
