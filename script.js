@@ -99,17 +99,17 @@ function answerQuestion(e){
     answered = true;
     if (e.currentTarget.getAttribute("data-correct") === "true") {
         questionsCorrect++;
-        e.currentTarget.style.backgroundColor = "#90ee90";
+        e.currentTarget.style.backgroundColor = "#85FF9D";
         var audiocerto = document.querySelector("#audio-correto")
         audiocerto.play();
         
     } else {
-        e.currentTarget.style.backgroundColor = "#ffcccb";
+        e.currentTarget.style.backgroundColor = "#EF5D4C";
         var audioerrado = document.querySelector("#audio-errado");
         audioerrado.play();
         document.querySelectorAll(".option").forEach((item) => {
           if (item.getAttribute("data-correct") === "true") {
-            item.currentTarget.style.backgroundColor = "#90ee90";
+            item.currentTarget.style.backgroundColor = "#85FF9D";
           }
         });
       }
@@ -139,7 +139,7 @@ function loadQuestions(){
 
         div.innerHTML = `
         <button class="option" data-correct="${answer.correct}">
-        ${answer.option}
+        <span class='option-number'>${answer.option}</span>
         <span class='option-images'> 
         ${optionContent}
         </span>
